@@ -9,19 +9,11 @@
       'target_name': 'test',
       'type': 'executable',
       'dependencies': [
-         'util',
+         'util/util.gyp:util',
       ],
       'sources': [
         'test/test.cc',
       ],
    },
-    {
-      'target_name': 'util',
-      'type': 'static_library',
-      'sources': [
-         'arena.cc',
-         'arena.h',
-      ],
-    },
   ],
 }
