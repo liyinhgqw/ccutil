@@ -11,6 +11,7 @@
       'sources': [
          'arena.cc',
          'arena.h',
+         'slice.h',
       ],
     },
   ],

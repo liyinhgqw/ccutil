@@ -6,9 +6,11 @@
  */
 
 #include "util/arena.h"
+#include "util/status.h"
+#include "util/testharness.h"
 #include <stdio.h>
 
-using namespace leveldb;
+using namespace cc;
 
 int main(int argc, char* argv[]) {
   Arena arena;
